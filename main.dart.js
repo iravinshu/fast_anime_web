@@ -39294,7 +39294,7 @@ var $async$w_=A.J(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:o=t.N
 m=t.kc
 s=3
-return A.S(A.WT(A.ep("http://127.0.0.1:10000/api/anime/episode"),A.aj(["anime_id",p.a.c.a],o,o)),$async$w_)
+return A.S(A.WT(A.ep("https://fast-anime.onrender.com/api/anime/episode"),A.aj(["anime_id",p.a.c.a],o,o)),$async$w_)
 case 3:n=m.a(b.h(0,"episodes"))
 if(n==null)n=[]
 o=J.l0(n,new A.amf(),o)
@@ -39623,7 +39623,7 @@ v3(a){return this.X8(a)},
 X8(a){var s=0,r=A.O(t.pm),q,p,o
 var $async$v3=A.J(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:s=3
-return A.S(A.aO0(A.ep("http://127.0.0.1:10000/api/search?query="+A.v1(1,a,B.R,!0))),$async$v3)
+return A.S(A.aO0(A.ep("https://fast-anime.onrender.com/api/search?query="+A.v1(1,a,B.R,!0))),$async$v3)
 case 3:p=c
 o=p.b
 if(o!==200)throw A.i(A.du("Failed to load results ("+o+")"))
@@ -39637,7 +39637,7 @@ amu(a,b,c){var s=0,r=A.O(t.hC),q,p,o
 var $async$q2=A.J(function(d,e){if(d===1)return A.L(e,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.S(A.aA6(A.ep("http://127.0.0.1:10000/api/anime/episode/play"),B.bI.kQ(A.aj(["anime_id",a,"lang",c,"ep_number",b],p,p)),B.tz),$async$q2)
+return A.S(A.aA6(A.ep("https://fast-anime.onrender.com/api/anime/episode/play"),B.bI.kQ(A.aj(["anime_id",a,"lang",c,"ep_number",b],p,p)),B.tz),$async$q2)
 case 3:o=e
 p=o.b
 if(p!==200)throw A.i(A.du("Failed to start playback ("+p+")"))
